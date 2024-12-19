@@ -7,7 +7,7 @@ Latency measuring software for OpenLatency measuring device:
 1) Connect latency measurer to 3.5mm mic/dual jack
 2) Make sure it is set as default audio input device
 3) Start OpenLatency
-4) Set minimum trigger difference for measurement (lower = more sensitive trigger, higher = less sensitive trigger)
+4) Set minimum trigger difference for measurement (lower = more sensitive trigger, higher = less sensitive trigger) (Ex.: "18" works well for my BPW34 photodiode)
 5) Hold measuring side of potodiode against target screen
 6) Click to measure
 
