@@ -25,3 +25,7 @@ You can use [this tool](https://github.com/GeeTwentyFive/OpenLatencyTester) to b
 Windows: `cc -O3 src/main.c -Lexternal/libuiohook -luiohook`
 
 For Linux, Mac, & other: You might have to include additional libraries. Consult [libuiohook](https://github.com/kwhat/libuiohook?tab=readme-ov-file#compiling) & [miniaudio](https://github.com/mackron/miniaudio?tab=readme-ov-file#building) documentation for this.
+
+## Notes:
+
+- Since it starts measuring from the hook part (Input -> OS -> Hooks -> Other non-hook application(s) -> GPU -> Display), USB mouse polling rate doesn't affect measurement result.
