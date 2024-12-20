@@ -2,6 +2,13 @@ Latency measuring software for OpenLatency measuring device:
 
 ![](docs/OpenLatency-Measurer.png)
 
+# Building the device:
+
+1) Get a photodiode
+2) Get a cable with a 3.5mm jack connector
+3) Strip mic & Vcc cables (you can check which one is mic and which is Vcc by touching the conductors of each cable while connected to PC 3.5mm mic/dual audio port and looking at mic input level)
+4) Connect mic cable to photodiode's anode, and Vcc cable to photodiode's cathode ([example](docs/OpenLatency-Measurer.png))
+
 # USAGE:
 
 1) Connect latency measurer to 3.5mm mic/dual jack
@@ -13,14 +20,9 @@ Latency measuring software for OpenLatency measuring device:
 
 You can use [this tool](https://github.com/GeeTwentyFive/OpenLatencyTester) to both test if it works *and* measure system latency.
 
-# Building the device:
-
-1) Get a photodiode
-2) Get a cable with a 3.5mm jack connector
-3) Strip mic & Vcc cables (you can check which one is mic and which is Vcc by touching the conductors of each cable while connected to PC 3.5mm mic/dual audio port and looking at mic input level)
-4) Connect mic cable to photodiode's anode, and Vcc cable to photodiode's cathode ([example](docs/OpenLatency-Measurer.png))
-
 # Building the program:
+
+You don't have to build the program if you just want to use it. You can get a pre-built executable binary release [here](https://github.com/GeeTwentyFive/OpenLatency/releases/latest) *(currently only a pre-built Windows release)*.
 
 Windows: `cc -O3 src/main.c -Lexternal/libuiohook -luiohook`
 
