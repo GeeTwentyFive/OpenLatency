@@ -6,7 +6,7 @@ Latency measuring software for OpenLatency measuring device:
 
 1) Get a photodiode
 2) Get a cable with a 3.5mm jack connector
-3) Strip mic & Vcc cables (you can check which one is mic and which is Vcc by touching the conductors of each cable while connected to PC 3.5mm mic/dual audio port and looking at mic input level)
+3) Strip mic & Vcc cables (you can check which one is mic and which is Vcc by touching the conductors of each cable while connected to PC 3.5mm mic/dual audio port and looking at [mic input level](https://github.com/GeeTwentyFive/OpenMicDataDumper))
 4) Connect mic cable to photodiode's anode, and Vcc cable to photodiode's cathode ([example](docs/OpenLatency-Measurer.png))
 
 # USAGE:
