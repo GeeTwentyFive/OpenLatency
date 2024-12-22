@@ -1,3 +1,5 @@
+[VIDEO](https://youtu.be/8AKe_MFNqVc)
+
 Latency measuring software for OpenLatency measuring device:
 
 ![](docs/OpenLatency-Measurer.png)
